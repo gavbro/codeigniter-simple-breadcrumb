@@ -37,25 +37,25 @@ The main goal of this is to create a setting independant breadcrumb solution for
 
 Please note: These instructions assume that you have a running webserver configured and ready to go with CodeIgniter 3.1.10 or newer installed and working. For CodeIgniter installation see https://codeigniter.com/user_guide/installation/index.html
 
-		#### bctest: Using the test files included.
+  #### bctest: Using the test files included.
 
-			1. Copy the /applications folder contents to your CI installation /applications folder
+   1. Copy the /applications folder contents to your CI installation /applications folder
 
-		#### Stand-alone
+  #### Stand-alone
 
-			1. Copy the included 'applications/libraries/My_Breadcrumb.php' file into your CI applications/libraries directory.
+   1. Copy the included 'applications/libraries/My_Breadcrumb.php' file into your CI applications/libraries directory.
 
 ### 4. Usage 
 
-	#### bctest: Using the test files included.
+  #### bctest: Using the test files included.
 
-	1. navigate to yourdomain.tld/bctest
+   1. navigate to yourdomain.tld/bctest
 	
-	#### Stand-alone
+  #### Stand-alone
 	
-	1. Load the `MY_Breadcrumb` library in the page controller of your choice. (`$this->load->library('MY_Breadcrumb');`)
-	2. Print the breadcrumb in your view (`<?php echo $this->my_breadcrumb->crumb(); ?>`)
-	3. Enjoy!
+   1. Load the `MY_Breadcrumb` library in the page controller of your choice. (`$this->load->library('MY_Breadcrumb');`)
+   2. Print the breadcrumb in your view (`<?php echo $this->my_breadcrumb->crumb(); ?>`)
+   3. Enjoy!
 
 ### 6. Contributing
 
